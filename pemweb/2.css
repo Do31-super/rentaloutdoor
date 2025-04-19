@@ -1,0 +1,225 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    box-sizing: border-box;
+}
+
+header {
+    background: url(img/hero-background.png);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    height: 250px;
+    border-radius: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: bold;
+}
+
+.rent-now {
+    background-color: rgb(128, 156, 250);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: bold;
+}
+
+.hero-section h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero-section P {
+    font-size: 1.2em;
+}
+
+#about {
+    padding: 50px;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.feature-item {
+    background-color: rgb(128, 156, 250);
+    width:250px;
+    height: 166px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+#products {
+    padding: 50px;
+    text-align: center;
+    background-color: #809cfa;
+}
+
+.product-slider{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    width: 250px;
+    text-align: center;
+}
+
+.product-item img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+#testimonials {
+    padding: 50px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+#testimonial-item{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px black;
+}
+
+#location {
+    padding: 50px;
+    text-align: center;
+    background-color: #809cfa;
+    color: white;
+}
+
+.map {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #809cfa;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.join-us {
+    margin-top: 30px;
+}
+
+.join-now{
+    background-color: #0fddfc;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: bold;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.company-info {
+    margin: 5px 0;
+    text-align: center;
+}
+
+.footer-links ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 5px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.close {
+    float: right;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+form input {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+form button {
+    background-color: #f8b400;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+

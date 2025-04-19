@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praktikum Web 2022</title>
+  </head>
+  <body>
+    <center>
+      <form action="" name="myForm">
+        <label for="wn">Masukkan Warga Negara</label> <br />
+        <input type="text" name="wn" id="wn" /> <br /><br />
+
+        <button type="button" name="simpan" onclick="greeting()">Simpan</button>
+      </form>
+
+      <p id="cetak"></p>
+    </center>
+
+    <script>
+      function greeting() {
+        let greeting = "Bukan siswa Rpl-4";
+        let myForm = document.myForm;
+        let wn = myForm.wn.value;
+
+        if (wn == "1") {
+          greeting = "Nova";
+        } else if (wn == "2") {
+          greeting = "Nur Alimah";
+        } else if (wn == "3") {
+          greeting = "Nur Zahra";
+        } else if (wn == "4") {
+            greeting = "Lovely";
+        } else if (wn == "5") {
+            greeting = "Devi";
+        } else {
+          greeting;
+        }
+
+        document.getElementById("cetak").innerHTML = greeting;
+      }
+    </script>
+  </body>
+</html>
